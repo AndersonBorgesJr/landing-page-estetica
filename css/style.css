@@ -32,7 +32,6 @@ body, html, #home{
 
 .capa{
     text-align: center;
-    margin-top: 100px;
 }
 
 #home h1{
@@ -47,6 +46,26 @@ body, html, #home{
     color: white;
     font-size: 1.5em;
     text-shadow: 1px 1px 10px black;
+}
+
+/*CARROSSEL
+-----------*/
+#carrossel{
+    background-color: rgba(0, 0, 0, 0.87);
+    padd: 50px;
+}
+
+.img-carrossel{
+    margin: auto;
+    text-align: center;
+}
+
+.carousel-control-next{
+    color: #ffc107;
+}
+
+.carousel-control-prev{
+    color: #ffc107;
 }
 
 /* MEDIA QUERY
